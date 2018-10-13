@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Estacionamento jS</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+</head>
+<body onload="mostrar()">
+    <div class="container">
+        <div class="header clearfix" >
+            <h2>Estacionamento JS : <small>Jardriel Sousa</small></h2>
+            <div class="jumbotron">
+                <form id="formulario">
+                    <div class="form-group">
+                        <label for="">Modelo do veiculo</label>
+                        <input type="text" name="" id="modelo" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="">Placa do veiculo</label>
+                        <input type="text" name="" id="placa" class="form-control">
+                    </div>
+                    <div>
+                        <button type="submit" class="btn btn-primary">Adicionar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="row marketing">
+            <div class="col-lg-12">
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th>Modelo</th>
+                            <th>Placa</th>
+                            <th>Entrada</th>
+                            <th>Finalizar</th>
+                        </tr>
+                    </thead>
+                    <tbody id="resultados">
+                        
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
